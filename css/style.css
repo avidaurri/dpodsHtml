@@ -2,6 +2,10 @@ body{
 	background-color: #F0F6FF;
 }
 
+h1,h2,h3,h4,h5, p,input,td{
+		font-family: 'Lexend', sans-serif;
+}
+
 #searchInputDpods:focus, #filterTable:focus {
     outline: none;
     box-shadow: none;
@@ -42,6 +46,14 @@ padding: 7px;
 	padding: 20px;
 /*	border-right:5px solid #F0F8FF;*/
  }
+
+
+
+ #headerSection .titlePage .title h4{
+
+	font-family: 'Lexend', sans-serif;
+ }
+
 
 
  #headerSection .titlePage .notifications{
@@ -118,7 +130,7 @@ color: white;
 #tableShipment  td{
 
   padding: 11px;
-	
+	font-weight: 200 !important;
 }
 
 
