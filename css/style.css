@@ -1,5 +1,5 @@
 body{
-	background-color: #F0F8FF;
+	background-color: #F0F6FF;
 }
 
 #searchInputDpods:focus, #filterTable:focus {
@@ -12,9 +12,13 @@ color: black;
 
 }
 
-#filterTable option:hover {
-color: black;
-background-color: #CDE8F6;
+#filterTable option[focus] {
+color: black !important;
+background-color: #CDE8F6 !important;
+}
+
+#filterTable option {
+padding: 7px;
 }
 
 #headerSection{
