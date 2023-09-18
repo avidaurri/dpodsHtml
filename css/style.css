@@ -1,0 +1,185 @@
+body{
+	background-color: #F0F8FF;
+}
+
+#searchInputDpods:focus, #filterTable:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#filterTable option{
+color: black;
+
+}
+
+#filterTable option:hover {
+color: black;
+background-color: #CDE8F6;
+}
+
+#headerSection{
+
+}
+
+
+
+ #headerSection .titlePage{
+
+ 	background-color: white;
+
+
+ }
+
+
+ #headerSection .titlePage .title{
+
+	display: block;
+	float: left;
+	padding: 20px;
+/*	border-right:5px solid #F0F8FF;*/
+ }
+
+
+ #headerSection .titlePage .notifications{
+
+	display: block;
+	float:right;
+	padding: 20px;
+	border-left:5px solid #F0F8FF;
+
+ }
+
+
+
+
+
+
+.primaryButton{
+	background: #1C99D6;
+	color: white;
+	border-color: #1C99D6;
+	border-radius: 1px;
+}
+
+
+.primaryButton:hover{
+	background: #1C99D6;
+	color: white;
+	border-color: #1C99D6;
+	border-radius: 1px;
+}
+
+
+
+#searchSection{
+
+}
+
+
+
+.input-group-text{
+	background: white;
+/*	border:none;*/
+}
+
+#searchInputDpods{
+	border: 1px solid #DCDCDC;
+	border-right: none;
+border-radius: 2px;
+}
+
+
+#searchInputDpods:focus{
+		border: 1px solid #DCDCDC;
+	border-right: none;
+}
+
+
+#tableShipment{
+
+
+
+
+}
+
+
+#tableShipment thead th{
+
+background-color: #0B2E4A;
+color: white;
+
+	
+}
+
+#tableShipment  td{
+
+  padding: 11px;
+	
+}
+
+
+
+#tableShipment thead tr{
+	border-bottom:  1px solid #DCDCDC;
+}
+
+
+
+#tableShipment, th, td {
+  border: 3px solid #F0F8FF;
+  border-collapse: collapse;
+}
+#tableShipment th, td {
+  background-color: #F0F8FF;
+}
+
+
+#tableShipment, tr, td {
+  border: 3px solid #F0F8FF;
+  border-collapse: collapse;
+}
+#tableShipment tr, td {
+  background-color: #F0F8FF;
+
+}
+
+
+
+.statusTdEntregado{
+	border-left: 10px solid #50C6A5;
+}
+.statusTdSinAsignar{
+	border-left: 10px solid #038ED1;
+}
+.statusTdEntransito{
+	border-left: 10px solid #FEAC2A;
+}
+.statusTdNoConforme{
+	border-left: 10px solid #FF004F;
+}
+
+.statusTh{
+border-left: 10px solid #0B2E4A;
+padding: 5px;
+}
+
+#iconAdd{
+	display: block;
+	float: right;
+}
+
+#iconArrow{
+	display: block;
+	float: left;
+}
+
+/*#btnAdd{
+	display: block;
+	float: left;
+}
+*/
+
+#btnAdd { 
+  display: block; 
+  width: 100%; 
+} 
