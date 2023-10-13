@@ -1,0 +1,121 @@
+/*=============================================
+=           SEARCH SECTION SHIPMENT REQUESTS         =
+=============================================*/
+
+
+#searchSectionShipmentResquests{
+
+}
+
+
+
+#searchSectionShipmentResquests .input-group-text{
+	background: white;
+/*	border:none;*/
+}
+
+#searchSectionShipmentResquests #searchInputDpodsShipmentResquests{
+	border: 1px solid #DCDCDC;
+	border-right: none;
+border-radius: 2px;
+}
+
+
+#searchSectionShipmentResquests #searchInputDpodsShipmentResquests:focus{
+		border: 1px solid #DCDCDC;
+	border-right: none;
+}
+
+#searchInputDpodsShipmentResquests:focus, #filterTableShipmentResquests:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*#iconAdd{
+	display: block;
+	float: right;
+}
+
+#iconArrow{
+	display: block;
+	float: left;
+}
+*/
+
+
+/*=====  End of Section  SEARCH SECTION SHIPMENT REQUESTS======*/
+
+
+
+/*=============================================
+=           SHIPMENT REQUESTS TABLE         =
+=============================================*/
+
+
+
+
+#ShipmentRequestsTable thead th{
+
+background-color: #0B2E4A;
+color: white;
+
+	
+}
+
+#ShipmentRequestsTable  td{
+
+  padding: 11px;
+	font-weight: 200 !important;
+}
+
+
+
+#ShipmentRequestsTable thead tr{
+	border-bottom:  1px solid #DCDCDC;
+}
+
+
+
+#ShipmentRequestsTable, th, td {
+  border: 3px solid #F0F8FF;
+  border-collapse: collapse;
+}
+#ShipmentRequestsTable th, td {
+  background-color: #F0F8FF;
+}
+
+
+#ShipmentRequestsTable, tr, td {
+  border: 3px solid #F0F8FF;
+  border-collapse: collapse;
+}
+#ShipmentRequestsTable tr, td {
+  background-color: #F0F8FF;
+
+}
+
+
+
+.statusTdEntregado{
+	border-left: 10px solid #50C6A5;
+}
+.statusTdSinAsignar{
+	border-left: 10px solid #038ED1;
+}
+.statusTdEntransito{
+	border-left: 10px solid #FEAC2A;
+}
+.statusTdNoConforme{
+	border-left: 10px solid #FF004F;
+}
+
+.statusTh{
+border-left: 10px solid #0B2E4A;
+padding: 5px;
+}
+
+
+
+
+
+/*=====  End of Section  SHIPMENT REQUESTS TABLE======*/

@@ -1,201 +1,302 @@
-body{
-	background-color: #F0F6FF;
+/*=============================================
+=           GENERAL          =
+=============================================*/
+
+
+
+/*=====  End of Section  GENERAL ======*/
+
+
+
+
+
+
+
+/*=============================================
+=           SEARCH BAR          =
+=============================================*/
+
+
+
+
+
+#searchBar .searchBarSection{
+	background-color: #0B2E4A;
+	padding: 10px;
 }
 
-h1,h2,h3,h4,h5, p,input,td{
-		font-family: 'Lexend', sans-serif;
-}
-
-#searchInputDpods:focus, #filterTable:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#filterTable option{
-color: black;
-
-}
-
-#filterTable option[focus] {
-color: black !important;
-background-color: #CDE8F6 !important;
-}
-
-#filterTable option {
-padding: 7px;
-}
-
-#headerSection{
-
-}
-
-
-
- #headerSection .titlePage{
-
- 	background-color: white;
-
-
- }
-
-
- #headerSection .titlePage .title{
-
-	display: block;
-	float: left;
-	padding: 20px;
-/*	border-right:5px solid #F0F8FF;*/
- }
-
-
-
- #headerSection .titlePage .title h4{
-
-	font-family: 'Lexend', sans-serif;
- }
-
-
-
- #headerSection .titlePage .notifications{
-
-	display: block;
-	float:right;
-	padding: 20px;
-	border-left:5px solid #F0F8FF;
-
- }
-
-
-
-
-
-
-.primaryButton{
-	background: #1C99D6;
+#searchBar .searchBarSection p{
 	color: white;
-	border-color: #1C99D6;
-	border-radius: 1px;
+	text-align: right;
+/*padding-top: 3px;*/
 }
 
+#searchBar .searchBarSection img{
+margin-right: 5px;
+margin-left: 5px;
+}
 
-.primaryButton:hover{
-	background: #1C99D6;
+#searchBar .searchBarSectionOpt{
+	background-color: #0B2E4A;
+	padding-top: 14px;
+}
+
+#searchBar .searchBarSectionOpt p{
 	color: white;
-	border-color: #1C99D6;
-	border-radius: 1px;
-}
-
-
-
-#searchSection{
+	text-align: right;
 
 }
 
 
-
-.input-group-text{
-	background: white;
-/*	border:none;*/
-}
-
-#searchInputDpods{
-	border: 1px solid #DCDCDC;
-	border-right: none;
-border-radius: 2px;
-}
-
-
-#searchInputDpods:focus{
-		border: 1px solid #DCDCDC;
-	border-right: none;
-}
-
-
-#tableShipment{
-
-
-
-
-}
-
-
-#tableShipment thead th{
-
-background-color: #0B2E4A;
-color: white;
-
-	
-}
-
-#tableShipment  td{
-
-  padding: 11px;
-	font-weight: 200 !important;
-}
-
-
-
-#tableShipment thead tr{
-	border-bottom:  1px solid #DCDCDC;
-}
-
-
-
-#tableShipment, th, td {
-  border: 3px solid #F0F8FF;
-  border-collapse: collapse;
-}
-#tableShipment th, td {
-  background-color: #F0F8FF;
-}
-
-
-#tableShipment, tr, td {
-  border: 3px solid #F0F8FF;
-  border-collapse: collapse;
-}
-#tableShipment tr, td {
-  background-color: #F0F8FF;
-
-}
-
-
-
-.statusTdEntregado{
-	border-left: 10px solid #50C6A5;
-}
-.statusTdSinAsignar{
+#searchBar .searchBarStatus{
+	background-color: white;
+	padding-top: 15px;
 	border-left: 10px solid #038ED1;
 }
-.statusTdEntransito{
-	border-left: 10px solid #FEAC2A;
-}
-.statusTdNoConforme{
-	border-left: 10px solid #FF004F;
+
+#searchBar .searchBarStatus p{
+color: var(--blueBase);;
+font-weight: 300;
 }
 
-.statusTh{
-border-left: 10px solid #0B2E4A;
-padding: 5px;
+#searchBar label{
+	color: white;
+	margin-top: 7px;
+	margin-left: 5px;
+	margin-right: 8px;
+	font-weight: 600;
 }
 
-#iconAdd{
-	display: block;
-	float: right;
+
+#searchBar .input-group-text{
+	background: white;
 }
 
-#iconArrow{
-	display: block;
-	float: left;
+#searchBar #searchInputDpodsSearchBar{
+	border: 1px solid #DCDCDC;
+	border-right: none;
+	border-radius: 2px;
 }
 
-/*#btnAdd{
-	display: block;
-	float: left;
-}
-*/
 
-#btnAdd { 
-  display: block; 
-  width: 100%; 
-} 
+#searchBar #searchInputDpodsSearchBar:focus{
+	border: 1px solid #DCDCDC;
+	border-right: none;
+}
+
+
+/*=====  End of Section  SEARCH BAR ======*/
+
+
+/*=============================================
+=           TABS          =
+=============================================*/
+
+
+
+
+#tabsSectionFormDataRoles .nav-item{
+	background-color: white;
+}
+
+#tabsSectionFormDataRoles  .nav-item .nav-link{
+
+/*color: gray;*/
+}
+
+#tabsSectionFormDataRoles  .nav-item a{
+color: #B6C0C9;
+font-weight: 600;
+font-size: 18px;
+}
+
+#tabsSectionFormDataRoles  .nav-item .nav-link .active {
+/*background-color: #0B2E4A;*/
+color: #0B2E4A;
+font-weight: 600;
+font-size: 18px;
+}
+
+
+
+.tab-panedpods{
+	background-color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+.tab-panedpods select{
+	margin-top: 8px;
+}
+
+
+.tab-panedpods label{
+	color: #23435C;
+	font-weight: 400;
+}
+
+.titleTab h4{
+color: #23435C;
+margin-bottom: 10px;
+font-weight: 600;
+font-size: 20px;
+}
+
+
+
+
+/*=====  End of Section  TABS ======*/
+
+
+
+
+
+#formMidle .sectionFormBackground{
+	background-color: var(--baseBackground);
+	padding: 20px;
+}
+
+#formMidle  p{
+	color: #23435C;
+font-weight: 600;
+}
+
+#formMidle  label{
+	color: #23435C;
+/*font-weight: 600;*/
+}
+
+
+
+
+#formButtn  p{
+	color: #23435C;
+font-weight: 600;
+}
+
+#formButtn  label{
+	color: #23435C;
+/*font-weight: 600;*/
+}
+
+
+
+
+
+#formButtn span{
+	color: gray;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+
+
+
+
+
+#formButtn .prevImg{
+	border: 4px solid white;
+}
+
+
+
+/*=============================================
+=           NUEVO EMBARQUE          =
+=============================================*/
+
+
+#newShipmentSection{
+
+padding-top: 140px;
+background-color: white;
+min-height: 500px;
+
+}
+
+#newShipmentSection .row{
+
+
+
+
+}
+
+#newShipmentSection .titlenewShipment p{
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+}
+
+#newShipmentSection .titlenewShipment {
+margin-bottom: 25px;
+}
+
+
+#newShipmentSection .primaryButton{
+padding-top: 48px;
+padding-bottom: 48px;
+
+}
+
+
+#newShipmentSection .greenButton{
+padding-top: 48px;
+padding-bottom: 48px;
+
+
+}
+
+
+
+
+
+/*=====  End of Section  NUEVO EMBARQUE  ======*/
+
+
+
+
+/*=============================================
+=           MODAL CARGA DOCUMENTO          =
+=============================================*/
+
+
+#cargaDocumentoModal .modal-dialog{
+border-radius: 10px;
+}
+
+#cargaDocumentoModal .modal-body{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#cargaDocumentoModal .modal-content{
+	border-radius: 17px;
+}
+
+#cargaDocumentoModal .modal-body h4{
+text-align: center;
+color:var(--blueBase) ;
+font-size: 27px;
+font-weight: bold;
+}
+
+
+
+#cargaDocumentoModal .modal-body p{
+text-align: center;
+margin-top: 20px;
+	color: #B6C0C9;
+	font-weight: 300;
+}
+
+#cargaDocumentoModal {
+	background-color:rgba(11, 46, 74,.6)
+}
+
+/*=====  End of Section  MODAL CARGA DOCUMENTO ======*/
+
+
+
+

@@ -1,0 +1,197 @@
+:root {
+  --baseBackground: #F0F6FF;
+  --blueBase: #0B2E4A;
+
+}
+
+/*=============================================
+=           GENERAL          =
+=============================================*/
+
+
+body{
+	background-color: var(--baseBackground);
+}
+
+h1,h2,h3,h4,h5, p,input,td{
+		font-family: 'Lexend', sans-serif;
+}
+
+
+.primaryButton{
+	background: #1C99D6;
+	color: white;
+	border-color: #1C99D6;
+	border-radius: 3px;
+}
+
+
+.primaryButton:hover{
+	background: #1C99D6;
+	color: white;
+	border-color: #1C99D6;
+	border-radius: 3px;
+}
+
+
+.greenButton{
+	background: #50C6A5;
+	color: white;
+	border-color: #50C6A5;
+	border-radius: 3px;
+}
+
+
+.greenButton:hover{
+	background: #50C6A5;
+	color: white;
+	border-color: #50C6A5;
+	border-radius: 3px;
+}
+
+
+
+::placeholder{
+
+	font-color: #B6C0C9;
+	font-size: 10px;
+	font-weight: 200;
+}
+
+
+.btndpodlg{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#filterTable option{
+color: black;
+
+}
+
+#filterTable option[focus] {
+color: black !important;
+background-color: #CDE8F6 !important;
+}
+
+#filterTable option {
+padding: 7px;
+}
+
+
+.btn-blockdpo { 
+  display: block; 
+  width: 100%; 
+} 
+
+
+.sectionChargeImages{
+		background-color: var(--baseBackground);
+	border-color: var(--baseBackground);
+	padding: 10px;
+	border:10px solid white;
+	min-height: 180px;
+}
+
+/*=====  End of Section  GENERAL ======*/
+
+
+
+/*=============================================
+=           FORMS          =
+=============================================*/
+
+
+.formComponentBackground{
+	background-color: var(--baseBackground);
+	border-color: var(--baseBackground);
+}
+
+.formComponentBase{
+	background-color: white;
+	border-color: white;
+}
+
+.sectionFormBackgroundIzq{
+	border-right: 10px solid white;
+}
+
+.sectionFormBackgroundDer{
+	border-left: 10px solid white;
+}
+
+
+
+.sectionFormBackground{
+	background-color: var(--baseBackground);
+	padding: 20px;
+}
+
+
+
+
+/*=====  End of Section  FORMS ======*/
+
+
+
+/*=============================================
+=           HEADER SECTION           =
+=============================================*/
+
+
+#headerSection .titlePage{
+
+ 	background-color: white;
+	padding: 25px;
+
+}
+
+
+#headerSection .titlePage .linkButtom{
+font-weight: 600;
+font-size: 17px;
+}
+
+#headerSection .titlePage .title{
+
+	display: block;
+	float: left;
+
+}
+
+
+#headerSection .titlePage .title h4{
+
+	font-family: 'Lexend', sans-serif;
+color:var(--blueBase) ;
+}
+
+#headerSection .titlePage .title img{
+
+	margin-right: 10px;
+
+}
+
+
+#headerSection .titlePage .notifications{
+
+	display: block;
+	float:right;
+	border-left:5px solid #F0F8FF;
+
+}
+
+a.linkButtom{
+	color: #50C6A5;
+	text-decoration: none;
+	 	margin-right: 15px !important;
+	 	font-weight: 600;
+}
+
+.buttonsTitlePage{
+	float: right;
+}
+
+
+/*=====  End of Section  HEADER SECTION  ======*/
